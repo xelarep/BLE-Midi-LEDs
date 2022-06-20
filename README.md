@@ -7,9 +7,9 @@ Created with
 - Arduino 1.8.19
   
 WS2812 based LED strip attached to a ESP32 running a BLE MIDI client. Currently, 12 LEDs are grouped by 3 and just showing up with some standard colours.
-Refer to the Sketch for more details
+Refer to the Sketch for more details!
 
-The ESP32 is responding to the following MIDI CCs
+The ESP32 is responding to the following MIDI CCs. Easy to adjust...
 
 | CC | Function                       | value |
 |----|--------------------------------|-------|
@@ -19,7 +19,7 @@ The ESP32 is responding to the following MIDI CCs
 | .. |                                |       |
 | 54 | Segement 4                     |       |
 
-If there's no MIDI Connections the LEDs show up with the FastLEDs rainbiw pattern.
+If there's no MIDI Connections the LEDs show up with the FastLEDs rainbow pattern.
 
 Alexander, June 2022
 
